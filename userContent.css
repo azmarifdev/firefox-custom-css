@@ -1,0 +1,25 @@
+@-moz-document url("about:newtab"), url("about:home") {
+    .logo-and-wordmark {
+        display: none !important;
+    }
+}
+.layout-variant-b .top-sites-list {
+    row-gap: var(--space-xlarge) !important;
+}
+
+.top-site-outer .top-site-inner > a {
+    padding: 0x !important;
+}
+
+.layout-variant-a .top-site-outer .tile,
+.layout-variant-b .top-site-outer .tile {
+    width: calc(var(--size-item-large) * 2) !important;
+    height: calc(var(--size-item-large) * 2) !important;
+    border-radius: 10px !important;
+}
+
+.top-site-outer .tile .icon-wrapper {
+    border-radius: 4px !important;
+    width: 48px !important;
+    height: 48px !important;
+}
