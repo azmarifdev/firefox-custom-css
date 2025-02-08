@@ -1,0 +1,73 @@
+#TabsToolbar {
+    visibility: collapse !important;
+}
+
+#titlebar {
+    visibility: collapse !important;
+}
+
+#tabbrowser-tabs {
+    visibility: collapse !important;
+}
+
+#titlebar {
+    appearance: none !important;
+    height: 0px !important;
+}
+
+#titlebar toolbar-menubar {
+    margin-top: 0px !important;
+}
+
+#TabsToolbar {
+    min-width: 0 !important;
+    min-height: 0 !important;
+}
+
+#TabsToolbar .titlebar-buttonbox-container {
+    display: block !important;
+    position: absolute !important;
+    top: 12px !important;
+    left: 0px !important;
+}
+
+#titlebar {
+    appearance: none !important;
+    height: 0px !important;
+}
+
+#titlebar > #toolbar-menubar {
+    margin-top: 0px !important;
+}
+.logo-and-wordmark-wrapper {
+    display: none !important;
+}
+
+#TabsToolbar {
+    min-width: 0 !important;
+    min-height: 0 !important;
+}
+
+#TabsToolbar > .titlebar-buttonbox-container {
+    display: block !important;
+    position: absolute !important;
+    top: 12px !important;
+    left: 0px !important;
+}
+
+#sidebar-box {
+    flex-direction: column-reverse !important;
+}
+
+#sidebar-header {
+    display: none !important;
+}
+
+#sidebar-box {
+    min-width: 100px !important;
+}
+
+#aHTMLTooltip,
+#remoteBrowserTooltip {
+    display: none !important;
+}
